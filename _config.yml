@@ -18,22 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+#------------------------------------------
+# Site identity
+#------------------------------------------
+title: Bot2012 - Analytics, Data Science and ML Enthusiast
+tagline: Data Science | Machine Learning | R | Python | SQL | GitHub
+  | Jupyter | Tableau | Power BI
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+  I work on applied data and machine learning projects, focusing on sound analysis
+  and predictive modeling. I also enjoy clear communication of results through data
+  visualization and storytelling.
+baseurl:  # the subpath of your site, e.g. /blog
+url: "https://bot2012.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#
+#------------------------------------------
+#Author info
+#------------------------------------------
+author: Benson Osei Tutu
+email: boseitutu2009@gmail.com
+#
+#
+#------------------------------------------
+# Social links
+#------------------------------------------
+twitter_username: BensonOsei
+github_username:  bot2012
+linkedin_username:  www.linkedin.com/in/bensonoseitutu
+#
+#
+#------------------------------------------
 # Build settings
+#------------------------------------------
+# Theme and Plugins
+#-------------------------------------------
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
+#
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - resume.md 
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
