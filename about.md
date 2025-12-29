@@ -3,10 +3,24 @@ layout: page
 title: About me
 permalink: /about/
 ---
-I am learning analytics, data science, and machine learning through applied projects, coursework, and collaboration with others. I am motivated by curiosity and a desire to understand how data can be used to answer meaningful questions, improve decisions, and support research and policy work.  
 
-My learning journey has included hands-on projects in data analysis, statistical modeling, and machine learning, often working with real-world datasets. Through these experiences, I have come to value not only building models, but also carefully framing problems, checking data quality, and clearly explaining results. I see data science as an iterative process, one that improves through questioning assumptions, testing ideas, and learning from feedback.  
+I am a data professional who enjoys learning and improving how data is collected, prepared, and used. I have over eight years of experience working with databases, analytics, and IT systems, and I recently completed a Master’s degree in Analytics.  
 
-Collaboration has been an important part of my development. I have worked in team-based academic projects, competitive datathons, and professional settings where progress depended on open communication and shared effort. These experiences have helped me appreciate different perspectives and reinforced the importance of working together to produce reliable and thoughtful analysis.  
+I mainly work with SQL and Python to clean data, build simple ETL pipelines, and support analysis and reporting. I have experience creating dashboards in Power BI and Tableau, and I have supported data systems running on Linux and Apache Tomcat. These experiences have helped me understand how data moves from raw systems to tools people actually use.  
 
-This portfolio is a reflection of my learning process. It documents the projects I have worked on, the methods I am exploring, and the lessons I continue to learn along the way. My goal is not only to demonstrate technical skills, but also to show how my thinking has evolved as I grow as a data science learner and researcher.  
+I am still learning and actively building my skills in cloud data platforms, data engineering, and big data tools such as Databricks. I like experimenting, reading documentation, and taking courses to understand how modern data systems work.  
+
+I enjoy working with others, asking questions, and learning from feedback. My goal is to keep growing as a data analyst and data engineer by building clear, reliable data solutions and continuously improving how I work.
+
+
+
+
+
+This portfolio is a reflection of my learning process. It documents the projects I have worked on, the methods I am exploring, and the lessons I continue to learn along the way. My goal is not only to demonstrate technical skills, but also to show how my thinking has evolved as I grow as a data science learner and researcher. 
+
+### Currently learning
+- DataCamp: Data Engineering with Python, Databricks Fundamentals, Cloud Data Concepts  
+
+### Research interest
+
+### Tool I am using

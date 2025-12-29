@@ -11,3 +11,16 @@ I am learning and growing in analytics, data science, and machine learning throu
 Open to data analytics, science and engineering roles.
 
 Contact: | boseitutu2009@gmail.com | bo2427a@american.edu
+
+# Featured Projects 
+
+{% assign featured_projects = site.projects | where: "featured", true %}
+
+{% for project in featured_projects %}
+### [{{ project.title }}]({{ project.url }})
+
+**Tech:** {{ project.tech }}
+
+{{ project.excerpt }}
+
+{% endfor %}
