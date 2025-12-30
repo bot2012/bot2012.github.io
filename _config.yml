@@ -58,9 +58,20 @@ plugins:
 #
 header_pages:
   - index.md
-  - about.md
   - projects.md
+  - about.md
   - resume.md 
+#
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
