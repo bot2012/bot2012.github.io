@@ -2,6 +2,8 @@
 title: FIFA Player Value Prediction
 tech: R, Regression
 featured: true
+excerpt: > 
+    This memo analyzes what determines the value of FIFA 2022 players, focusing on how player wage, age, strength and loan impact value. Using a multiple linear regression model...
 ---
 
 This memo analyzes what determines the value of FIFA 2022 players, focusing on how player wage, age, strength and loan impact value. Using a multiple linear regression model, examine whether wage, age, strength, and whether a player has been loaned or not determine player value. The report explores how these factors influence players’ value in the market. "The analysis reveals about 65% of a players’ market value can be predicted by wage, age, strength and loan status, highlighting a strong relationship between value and these variables"

@@ -3,10 +3,145 @@
 }
 
 .project .wrapper {
-  max-width: 820px;
+  max-width: 900px;
 }
 
 .project img,
 .project svg {
   max-width: 100%;
+}
+
+/* =========================
+   PRINT STYLES (Resume)
+   ========================= */
+@media print {
+
+  .no-print {
+  display: none !important;
+  }
+
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 1.2cm;
+  }
+
+  /* Hide non-resume elements */
+  header,
+  footer,
+  nav,
+  .site-header,
+  .site-footer {
+    display: none !important;
+  }
+
+  /* Base typography */
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #000;
+  }
+
+  /* Constrain width */
+  .page-content,
+  .wrapper {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 20pt;
+    margin-bottom: 0.3rem;
+  }
+
+  h2 {
+    font-size: 13pt;
+    margin-top: 1.2rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.2rem;
+  }
+
+  h3 {
+    font-size: 11pt;
+    margin-top: 0.6rem;
+  }
+
+  /* Lists */
+  ul {
+    margin: 0.3rem 0 0.6rem 1.2rem;
+  }
+
+  li {
+    margin-bottom: 0.2rem;
+  }
+
+  /* Links: show URLs or remove styling */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a::after {
+    content: "";
+  }
+
+  /* Avoid page breaks inside sections */
+  h2, h3, p, ul {
+    page-break-inside: avoid;
+  }
+}
+/* =========================
+   PROJECT CARDS
+   ========================= */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 1.2rem;
+  background: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.project-card p {
+  margin: 0.4rem 0;
+}
+
+.project-card .tech {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card a:focus {
+  outline: 2px solid #000;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.6rem;
 }

@@ -21,13 +21,13 @@
 #------------------------------------------
 # Site identity
 #------------------------------------------
-title: Bot2012 - Analytics, Data Science and ML Enthusiast
+title: Benson Osei Tutu (BOT) - Analytics, Data Science & ML Enthusiast
 tagline: Data Science | Machine Learning | R | Python | SQL | GitHub
   | Jupyter | Tableau | Power BI
-description: >- # this means to ignore newlines until "baseurl:"
-  I work on applied data and machine learning projects, focusing on sound analysis
-  and predictive modeling. I also enjoy clear communication of results through data
-  visualization and storytelling.
+# description: >- # this means to ignore newlines until "baseurl:"
+#  I work on applied data and machine learning projects, focusing on sound analysis
+#  and predictive modeling. I also enjoy clear communication of results through data
+#  visualization and storytelling.
 baseurl:  # the subpath of your site, e.g. /blog
 url: "https://bot2012.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #
@@ -43,7 +43,7 @@ email: boseitutu2009@gmail.com
 #------------------------------------------
 twitter_username: BensonOsei
 github_username:  bot2012
-linkedin_username:  www.linkedin.com/in/bensonoseitutu
+linkedin_username: linkedin.com/in/bensonoseitutu
 #
 #
 #------------------------------------------
