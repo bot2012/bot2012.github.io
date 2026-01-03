@@ -11,6 +11,32 @@
   max-width: 100%;
 }
 
+/* Headings and spacing adjustments */
+
+h2 {
+  margin-top: 3rem;
+}
+
+h3 {
+  margin-bottom: 0.3rem;
+}
+
+.featured-project {
+  margin-bottom: 2rem;
+}
+
+/*
+Fix large gaps after headers + paragraphs
+Often the combined margin is the problem:
+*/
+
+h1 + p,
+h2 + p,
+h3 + p {
+  margin-top: 0.2em;
+}
+
+
 /* =========================
    PRINT STYLES (Resume)
    ========================= */

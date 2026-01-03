@@ -61,6 +61,7 @@ header_pages:
   - projects.md
   - about.md
   - resume.md 
+  - certifications.md  
 #
 collections:
   projects:
@@ -91,3 +92,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# ------------------------------------------
+# Google Analytics
+# ------------------------------------------
+google_analytics: G-RQZ8SC01YG

@@ -12,10 +12,6 @@ I am still learning and actively building my skills in cloud data platforms, dat
 
 I enjoy working with others, asking questions, and learning from feedback. My goal is to keep growing as a data analyst and data engineer by building clear, reliable data solutions and continuously improving how I work.
 
-
-
-
-
 This portfolio is a reflection of my learning process. It documents the projects I have worked on, the methods I am exploring, and the lessons I continue to learn along the way. My goal is not only to demonstrate technical skills, but also to show how my thinking has evolved as I grow as a data science learner and researcher. 
 
 ### Currently learning
