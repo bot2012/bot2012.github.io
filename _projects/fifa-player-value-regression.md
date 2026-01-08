@@ -3,15 +3,15 @@ title: FIFA Player Value Prediction
 tech: R, Regression
 featured: true
 excerpt: > 
-    This memo analyzes what determines the value of FIFA 2022 players, focusing on how player wage, age, strength and loan impact value. Using a multiple linear regression model...
+    This memo analyzes what determines the value of FIFA 2022 players, focusing on how player wage, age, strength and loan impact value. Using a multiple linear regression model, examine whether wage, age, strength, and whether a player has been loaned or not determine player value. The report explores how these factors influence players’ value in the market.
 ---
 
 This memo analyzes what determines the value of FIFA 2022 players, focusing on how player wage, age, strength and loan impact value. Using a multiple linear regression model, examine whether wage, age, strength, and whether a player has been loaned or not determine player value. The report explores how these factors influence players’ value in the market. "The analysis reveals about 65% of a players’ market value can be predicted by wage, age, strength and loan status, highlighting a strong relationship between value and these variables"
 
-H~1~: Player wage will be positively correlated with player value.\
-H~2~: Player strength will be positively correlated with player value.\
-H~3~: Loaned players will have a lower value compared to non-loaned players.\
-H~4~: There is a non-linear relationship between age and player value (e.g., value increases up to a certain age and then declines).
+H ~1~: Player wage will be positively correlated with player value.\
+H ~2~: Player strength will be positively correlated with player value.\
+H ~3~: Loaned players will have a lower value compared to non-loaned players.\
+H ~4~: There is a non-linear relationship between age and player value (e.g., value increases up to a certain age and then declines).
 
 Variable analysis and Data Preparation The study focused on variables: wages (regular payments to players), Age, strength, and loaned status to estimate the value (estimated market worth) of a player. The variables value and wage were filtered to exclude zero entries, as they represent missing or unreliable data. The loan variable was recoded into two, when the variable was “NONE” coded as 0, it meant the player had not been loaned before but where there was a team name where a player was loaned to or loaned from, this was coded as 1 which meant the player had been loaned before. Outliers, representing wages and value variables were retained for their importance in understanding wage-value dynamics in soccer. \### Frequency Distribution of Categorical Variable Table 1: Categorical Summary
 

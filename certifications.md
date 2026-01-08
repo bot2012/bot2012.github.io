@@ -3,7 +3,7 @@ layout: page
 title: Certifications
 permalink: /cerfication/
 ---
-### Continuous Learning  
+### Continuous Learning (Datacamp)  
 
 **Snowflake**  
 [Introduction to Snowflake](https://www.datacamp.com/completed/statement-of-accomplishment/course/4dde848bf8a417ea84246d1f65eff1fd4bb641cc)  
