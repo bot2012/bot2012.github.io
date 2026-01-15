@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-I am a data professional who enjoys learning and improving how data is collected, prepared, and used. I have over five years of experience working with databases, analytics, and IT systems, and I recently completed a Master’s degree in Analytics.  
+I am a data professional who enjoys learning and improving how data is collected, prepared, and used. I have over five years of experience working with databases, analytics, and IT systems, and I recently completed a Master’s degree in Data Analytics.  
 
 I mainly work with SQL and Python to clean data, build simple ETL pipelines, and support analysis and reporting. I have experience creating dashboards in Power BI and Tableau, and I have supported data systems running on Linux and Apache Tomcat. These experiences have helped me understand how data moves from raw systems to tools people actually use.  
 

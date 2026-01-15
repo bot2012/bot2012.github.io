@@ -2,21 +2,13 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 title: Home
 ---
 
-<!--
-# Hi, I am Benson Osei Tutu (Bot)  
-I am learning and growing in analytics, data science, and machine learning through hands-on projects and collaboration. This portfolio documents what I am exploring, building, and reflecting on as I continue to develop my skills.
 
-Open to data analytics, science and engineering roles.
 
-Contact: | boseitutu2009@gmail.com | bo2427a@american.edu
 
--->
-
-# Featured Projects 
 <!--
 {% assign featured_projects = site.projects | where: "featured", true %}
 
@@ -35,10 +27,26 @@ Contact: | boseitutu2009@gmail.com | bo2427a@american.edu
 -----------------------------------------------------
 -->
 
-{% assign featured_projects = site.projects | where: "featured", true %}
+<h2>Short Blog Posts</h2>
+
+<ul class="post-list">
+  {% for post in site.posts limit:4 %}
+    <li>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <p>{{ post.excerpt }}</p>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2> Featured Projects </h2>
+
+{% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
 
 <div class="project-grid">
-{% for project in featured_projects %}
+{% for project in featured_projects limit:4 %}
   <div class="project-card">
     {% if project.image %}
       <img src="{{ project.image }}" alt="{{ project.title }} screenshot">
