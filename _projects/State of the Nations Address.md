@@ -10,8 +10,9 @@ excerpt: >
 This study analyzes Ghana’s State of the Nation Addresses (SONA) from 2001 to 2024 using text analytics techniques. Table 1 summarizes the documents used, showing the number of sentences and tokens for each year.
 The year 2014 recorded the longest address, with 930 sentences and 23,929 tokens, closely followed by 2016, which had 900 sentences and 23,024 tokens. Shorter addresses, such as 2019, contained fewer sentences and tokens, indicating more concise speeches. Overall, the variation in document length suggests differences in governing priorities, economic conditions, and political context across administrations.   
 Table 1: Summary of Documents  
+
 | Year | Sentences | Tokens |
-|------|-----------|--------|
+|:-----|----------:|-------:|
 | 2001 | 204 | 5115 |
 | 2002 | 415 | 9591 |
 | 2003 | 268 | 7031 |
@@ -66,8 +67,7 @@ In 2009, the democratically elected government of one party transitioned to a de
 The 2017 Political Transition
 The 2017 SONA followed another transition, this time from the NDC to the NPP. Economic terms such as debt, fiscal, GDP, and billion dominate, highlighting fiscal challenges and economic ambitions.  
 Words like elect and change emphasize political transition and public expectations. Shall again signals policy promises, while food points to agricultural and food security concerns. The term force likely reflects efforts to strengthen institutions, law enforcement, or national security.
-
-Topic Modelling in SONA
+   Topic Modelling in SONA
 
 | Year | Topic |
 |------|-------|
